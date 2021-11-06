@@ -9,8 +9,6 @@ import 'package:http/http.dart' as http;
 String sourceText = "";
 String targetText = "";
 List<String> sList = [];
-String translatedTextList = "";
-String translatedTextListLast = "";
 String translatedText = "";
 
 Future<List<Language>> fetchLanguages(http.Client client) async {
